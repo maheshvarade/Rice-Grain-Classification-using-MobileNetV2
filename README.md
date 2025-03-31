@@ -1,5 +1,7 @@
 # Rice-Grain-Classification-using-MobileNetV2
 
+datasets =https://www.kaggle.com/datasets/muratkokludataset/rice-image-dataset
+
 Rice Grain Classification using MobileNetV2
 This project implements a CNN-based rice grain classification model using MobileNetV2 to differentiate between five rice varieties: Arborio, Basmati, Ipsala, Jasmine, and Karacadag. The dataset consists of 75,000 images (15,000 per class).
 Dataset Preparation
@@ -58,3 +60,9 @@ Jasmine: Has some confusion with Basmati (22 samples misclassified).
 
 Basmati & Ipsala: Almost perfect classification.
 Future Improvements 📌 Data Augmentation: Further augmentation techniques (rotation, scaling, flipping) can help improve robustness. 📌 Hyperparameter Tuning: Fine-tuning MobileNetV2 architecture (learning rate, dropout) may enhance performance. 📌 Model Pruning & Quantization: Optimize for mobile and edge deployments without significant accuracy loss.
+
+Future Improvements 📌 Data Augmentation: Further augmentation techniques (rotation, scaling, flipping) can help improve robustness. 📌 Hyperparameter Tuning: Fine-tuning MobileNetV2 architecture (learning rate, dropout) may enhance performance. 📌 Model Pruning & Quantization: Optimize for mobile and edge deployments without significant accuracy loss.
+
+
+
+
