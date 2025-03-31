@@ -46,4 +46,15 @@ Loss: Gradually decreased, indicating model convergence
 🔹 Reduce image resolution (e.g., 128x128) for efficiency
 🔹 Data Augmentation can further improve model robustness
 
-🔧 Installation & Usage
+Observations:
+
+The model performs very well, with most predictions on the diagonal (correct classifications).
+
+Misclassifications:
+
+Arborio: 99 samples were misclassified.
+
+Jasmine: Has some confusion with Basmati (22 samples misclassified).
+
+Basmati & Ipsala: Almost perfect classification.
+Future Improvements 📌 Data Augmentation: Further augmentation techniques (rotation, scaling, flipping) can help improve robustness. 📌 Hyperparameter Tuning: Fine-tuning MobileNetV2 architecture (learning rate, dropout) may enhance performance. 📌 Model Pruning & Quantization: Optimize for mobile and edge deployments without significant accuracy loss.
